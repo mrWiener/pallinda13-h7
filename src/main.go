@@ -10,10 +10,12 @@ import (
 	"ex23"
 	"ex35"
 	"ex40"
+	"ex43"
 )
 
 func main() {
 	ex23.Main()
 	ex35.Main()
 	ex40.Main()
+	ex43.Main()
 }
