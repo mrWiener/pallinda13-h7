@@ -20,6 +20,4 @@ func main() {
 	ex40.Main()
 	ex43.Main()
 	remind.Main()
-
-	select {}
 }

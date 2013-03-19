@@ -22,7 +22,8 @@ func Remind(text string, paus time.Duration) {
 }
 
 func Main() {
-	Remind("Dags att äta", time.Second*3)
-	Remind("Dags att arbeta", time.Second*8)
-	Remind("Dags att sova", time.Second*24)
+	Remind("Dags att äta", time.Hour*3)
+	Remind("Dags att arbeta", time.Hour*8)
+	Remind("Dags att sova", time.Hour*24)
+	select {}
 }
