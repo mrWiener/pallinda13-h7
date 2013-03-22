@@ -11,7 +11,7 @@ import (
 	"ex35"
 	"ex40"
 	"ex43"
-//	"remind"
+	"remind"
 	"add"
 )
 
@@ -20,6 +20,6 @@ func main() {
 	ex35.Main()
 	ex40.Main()
 	ex43.Main()
-	//remind.Main()
+	remind.Main()
 	add.Main()
 }
